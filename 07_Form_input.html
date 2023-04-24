@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input</title>
+
+    <!--Form and input-->
+
+    <form action="process.php">
+<!--text-->
+        <div>
+        <label for="name">Нэр</label><br>
+        <input type="text" id="name" value="Tergel">
+
+    </div>
+    <br>
+    <!--email-->
+<div>
+    <label for="email">Емайл</label ><br>
+    <input type="text" name="email" id="email" placeholder="ta email haygaa bichne uu">
+    <!--placeholder n tuhain email bichh hesgt budeg unguur ta email haygaa bichne uu gj hergdna-->
+</div>
+<br>
+<!--textarea-->
+<div>
+    <label for="message">сэтгэгдэл</label><br>
+    <textarea name="message" id="message" cols="30" rows="5"></textarea>
+    <!--textarea bl urt text bichhd zoriulgdsan-->
+    </div>
+    <br>
+    <!--Select-->
+    <div>
+        <label for="sex">Хүйс</label><br>
+        <select name="sex" id="sex">
+            <option value="male"selected>Эрэгтэй</option>
+            <option value="female">Эмэгтэй</option>
+        </select>
+    </div>
+    <br>
+    <!--number-->
+    <div>
+        <label for="age">Нас</label><br>
+        <input type="number" name="age" id="age">
+        <!--type dr number gj bichsneer too oruulh bolomjtoi blj bn-->
+    </div>
+    <br>
+    <!--date-->
+    <div>
+        <label for="birthdate">Төрсөн он сар өдөр</label><br>
+        <input type="date" name="birthdate" id="birthdate">
+    </div>
+    <br>
+    <!--radio button-->
+    <div>
+        <label for="membership">Гишүүнчлэл</label><br>
+        <input type="radio" name="membership" value="basic" id="membership"checked>Энгийн
+        <input type="radio" name="membership" value="standard" id="membership">Стандарт
+        <input type="radio" name="membership" value="premium" id="membership">VIP
+        <!--checked bl olon options 1g songhd hadgalgdaj uldeehd tuslna-->
+    </div>
+    <br>
+    <!--checkbox-->
+    <div>
+        <label for="hobby">sonirhdog zuils</label><br>
+        <input type="checkbox" name="hobby" value="music" id="hobby"checked>duu hugjim
+        <input type="checkbox" name="hobby" value="volleyball"id="hobby"checked>volleyball
+        <input type="checkbox" name="hobby" value="reading book" id="hobby">nom unshih
+        <!--checkbox bol olon zerg songoluud hiihd tuslna. checked iig hedn ch udaa ashiglaj boldg-->
+    </div>
+    <!--submit button-->
+    <br>
+    <input type="submit" value="burtguuleh">
+    <button type="submit">ilgeeh</button>
+    <!-- submit button hiihdee label bhgui only input:submit ymuu button -->
+    </form>
+
+</head>
+<body>
+    
+</body>
+</html> 
+<!--Hervee olon songolttoi dooshoo jagsaasn div iig cpoydohdoo mun ugnuudiig neg dor solihiig husvel cursoroo tuhain ugn dree avaachaad Command D darahd ugnuud eelj eeljeeree todrono-->
+<!--checked gdgiig bichj ugsnuuruu heden songolt hj bolh tuhain hiisn songolt hadgalgdaj uldehd tuslna-->
+<!--value bol tuhain textd yu hargdh ve gedgiig bichdeg-->
+<!--id for 2 davhtsaj bh ystoi, adilhn ug bichne-->
+<!--email dr placeholder-->
